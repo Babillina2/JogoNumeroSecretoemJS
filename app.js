@@ -63,11 +63,11 @@ function reiniciarJogo() {
     limparCampo();
     tentativas = 1;
     exibirMensagemInicial();
-    document.getElementById('reiniciar').setAttribute('disabled', true)
+    document.getElementById('reiniciar').setAttribute('disabled', true);
+    let numeroSecreto = gerarNumeroAleatorio();
+    let tentativas = 1;
 }
 
-let numeroSecreto = gerarNumeroAleatorio();
-let tentativas = 1;
 function exibirTextoNaTela(tag, texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
