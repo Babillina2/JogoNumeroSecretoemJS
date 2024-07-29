@@ -99,7 +99,7 @@ function verificarChute(){
 
 
 function gerarNumeroAleatorio() { 
-    return parseInt((Math.random() * 10) + 1);  // Gera um número aleatório entre 1 e 10
+    return parseInt((Math.random() * 100) + 1);  // Gera um número aleatório entre 1 e 100
 }
 
 function limparCampo() {
